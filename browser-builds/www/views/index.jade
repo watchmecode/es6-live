@@ -1,0 +1,28 @@
+extends layout
+
+block javascript
+  script#some-template(type="text/template")
+    h2 This is a template!
+    p isn't this the coolest thing ever?!
+
+  script#some-modified-template(type="text/template")
+    h2 This is a MODIFIED template!
+    p isn't this the MOST AWFUL thing ever?!
+    ul
+      li asdf
+      li qwer
+      li zvcx
+
+  script(src="/assets/infrastructure.js")
+  script(src="/assets/app.js")
+
+  script.
+    $(function(){
+      App.start();
+    });
+
+
+block content
+  h1= title
+  p Welcome to #{title}
+  #main

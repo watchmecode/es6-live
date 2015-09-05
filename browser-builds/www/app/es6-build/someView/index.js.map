@@ -1,0 +1,1 @@
+{"version":3,"sources":["www/app/src/someView/index.js"],"names":[],"mappings":";;;;;AAAA,IAAI,MAAM,GAAG,UAAU,CAAC,QAAQ,CAAC,MAAM,CAAC;AACtC,UAAQ,EAAE,yBAAyB;CACpC,CAAC,CAAC;;qBAEY,MAAM","file":"www/app/src/someView/index.js","sourcesContent":["var MyView = Marionette.ItemView.extend({\n  template: \"#some-modified-template\"\n});\n\nexport default MyView;\n"]}
