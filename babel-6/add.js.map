@@ -1,0 +1,1 @@
+{"version":3,"sources":["src/add.js"],"names":[],"mappings":";;;;;;qBAAe,UAAS,CAAC,EAAE,CAAC,EAAC;AAC3B,SAAO,CAAC,GAAG,CAAC,CAAC;CACd","file":"src/add.js","sourcesContent":["export default function(a, b){\n  return a + b;\n}\n"]}

@@ -1,0 +1,1 @@
+{"version":3,"sources":["src/subtract.js"],"names":[],"mappings":";;AAAA,MAAM,CAAC,OAAO,GAAG,UAAS,CAAC,EAAE,CAAC,EAAC;AAC7B,SAAO,CAAC,GAAG,CAAC,CAAC;CACd,CAAA","file":"src/subtract.js","sourcesContent":["module.exports = function(a, b){\n  return a - b;\n}\n"]}
