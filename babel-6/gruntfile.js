@@ -3,15 +3,14 @@ module.exports = function(grunt){
   grunt.initConfig({
     babel: {
       options: {
-        sourceMap: true,
-        optional: ["runtime"]
+        sourceMap: true
       },
       dist: {
         files: {
-          "app.js": "src/app.js",
-          "myMath.js": "src/myMath.js",
-          "subtract.js": "src/subtract.js",
-          "add.js": "src/add.js"
+          "build/app.js": "src/app.js",
+          "build/myMath.js": "src/myMath.js",
+          "build/subtract.js": "src/subtract.js",
+          "build/add.js": "src/add.js"
         }
       }
     },

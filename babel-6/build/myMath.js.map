@@ -1,0 +1,1 @@
+{"version":3,"sources":["../src/myMath.js"],"names":[],"mappings":";;;;;;;;;;;;;;;;AAGA,IAAI,IAAI,GAAG;AACT,KAAG,eAAK;AACR,UAAQ,oBAAU;CACnB,CAAC;;kBAEa,IAAI","file":"myMath.js","sourcesContent":["import add from \"./add\";\nimport subtract from \"./subtract\";\n\nvar math = {\n  add: add,\n  subtract: subtract\n};\n\nexport default math;\n"]}

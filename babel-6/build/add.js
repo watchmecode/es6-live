@@ -4,9 +4,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-exports["default"] = function (a, b) {
+exports.default = function (a, b) {
   return a + b;
 };
-
-module.exports = exports["default"];
 //# sourceMappingURL=add.js.map
